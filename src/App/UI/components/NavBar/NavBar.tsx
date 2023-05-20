@@ -50,11 +50,6 @@ const NavBar: React.FC<NavBarProps> = () => {
               Join our Community
             </a>
           </li>
-          {/* <li className="navUlLi">
-            <a className="navUlAright" href="/pricing">
-              Subscribe
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>
