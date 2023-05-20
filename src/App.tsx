@@ -7,7 +7,6 @@ import NavBar from "./App/UI/components/NavBar/NavBar";
 function App() {
   return (
     <>
-      <NavBar />
       <AppEntry />
     </>
   );

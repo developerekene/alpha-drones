@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logoDiv{
+    display: flex;
+    gap: 10px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navUl{
+    display: flex;
+    gap: 20px;
+}
+
+.navUlLi{
+    list-style: none;
+}
+
+.navUlA{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.lastSection{
+    display: flex;
+    gap: 20px;
+}
