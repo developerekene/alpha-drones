@@ -1,27 +1,128 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.buttonMain{
-    border: none;
-    padding: 10px;
-    letter-spacing: 2px;
+.buttonMain {
+  border: none;
+  padding: 10px;
+  letter-spacing: 2px;
 }
 
-.buttonMain:hover{
+.buttonMain:hover {
+  color: #ffffff;
+  background-color: #b87e0b;
+  cursor: pointer;
+}
+
+.secondButtonMain {
+  /* border: none; */
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: #b87e0b;
+  border-width: 1px;
+  border-color: #ffffff;
+  outline: none;
+}
+
+.middleContainerDiv {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.middleHeading {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.middleParagraph {
+  text-align: center;
+  font-size: 50px;
+  color: #b87e0b;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.droneImageDiv {
+  margin-top: 100px;
+}
+
+.titleDiv {
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.buttonMiddle {
+  padding-left: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.buttonMainOrder {
+  border: 1px solid #b87e0b;
+  padding: 10px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.buttonMainOrder:hover{
+    background-color: #b87e0b;
     color: #ffffff;
-    background-color: #B87E0B;
     cursor: pointer;
 }
 
-.secondButtonMain{
-    /* border: none; */
-    padding: 10px;
-    letter-spacing: 2px;
-    background-color: transparent;
-    color: #B87E0B;
-    border-width: 1px;
-    border-color: #ffffff;
-    outline: none;
+.headings {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+
+.paragraph {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+
+.contactDiv {
+  background-color: black;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputHome {
+  width: 95%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.contactDivP {
+  color: #71a6f8;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 20px;
+}
+
+.buttonMainContact {
+  border: 1px solid #71a6f8;
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.buttonMainContact:hover {
+  color: #71a6f8;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
 }
