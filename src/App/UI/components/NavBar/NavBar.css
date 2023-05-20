@@ -6,6 +6,8 @@
 .logoDiv{
     display: flex;
     gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 .navBar{
@@ -30,9 +32,44 @@
     text-decoration: none;
     color: white;
     font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navUlA:hover{
+    color: #B87E0B;
 }
 
 .lastSection{
     display: flex;
     gap: 20px;
 }
+
+.navUlAright{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navUlArightButton{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #B87E0B;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logoP{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.logoPi{
+    color: #B87E0B;
+    font-size: 20px;
+    font-weight: 200;
+}
+

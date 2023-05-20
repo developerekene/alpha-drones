@@ -1,13 +1,14 @@
 import { url } from "inspector";
-import React from "react";
+import React, { ReactNode } from "react";
 import "../MainContainer/MainContainer.css";
 
 interface MainContainerInterface {
-  navView: any;
-  backgroundImage: any;
-  headerTitle: string;
-  subTitle: string;
-  buttonView: any
+  navView: ReactNode;
+  backgroundImage: string;
+  headerTitle?: string;
+  subTitle?: string;
+  buttonView?: ReactNode;
+  secondButtonView?: ReactNode
 }
 
 export const windowWidth: number = window.screen.width;
@@ -20,7 +21,8 @@ const MainContainer: React.FC<MainContainerInterface> = ({
   navView,
   headerTitle,
   subTitle,
-  buttonView
+  buttonView,
+  secondButtonView
 }) => {
   return (
     <div
@@ -33,11 +35,12 @@ const MainContainer: React.FC<MainContainerInterface> = ({
     >
       <div>{navView}</div>
       <div>
-        <h1>{headerTitle}</h1>
-        <p>{subTitle}</p>
+        <h1 className="header">{headerTitle}</h1>
+        <p className="subtitle">{subTitle}</p>
       </div>
-      <div>
+      <div className="buttonStyle">
         {buttonView}
+        {secondButtonView}
       </div>
     </div>
   );

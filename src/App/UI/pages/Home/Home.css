@@ -2,11 +2,26 @@
     padding: 0;
     margin: 0;
 }
-.containerHome{
-    background-color: #191970;
+
+.buttonMain{
+    border: none;
+    padding: 10px;
+    letter-spacing: 2px;
 }
 
-.innerConDiv{
-    color: white;
-    padding-left: 100;
+.buttonMain:hover{
+    color: #ffffff;
+    background-color: #B87E0B;
+    cursor: pointer;
+}
+
+.secondButtonMain{
+    /* border: none; */
+    padding: 10px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #B87E0B;
+    border-width: 1px;
+    border-color: #ffffff;
+    outline: none;
 }

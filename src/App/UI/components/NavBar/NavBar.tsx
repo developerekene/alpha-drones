@@ -8,9 +8,9 @@ const NavBar: React.FC<NavBarProps> = () => {
     <div className="navBar">
       <div >
         <a className="logoDiv" href="/">
-          <p style={{color: "#ffffff"}}>Alpha</p>
-          <p>-</p>
-          <p>Drones</p>
+          <p className="logoP">Alpha</p>
+          <p className="logoP">-</p>
+          <p className="logoPi">Drones</p>
         </a>
         
       </div>
@@ -18,7 +18,7 @@ const NavBar: React.FC<NavBarProps> = () => {
         <ul className="navUl">
           <li className="navUlLi">
             <a className="navUlA" href="/about">
-              About Me
+              About
             </a>
           </li>
           <li className="navUlLi">
@@ -46,15 +46,15 @@ const NavBar: React.FC<NavBarProps> = () => {
       <div >
         <ul className="lastSection">
           <li className="navUlLi">
-            <a className="navUlA" href="/pricing">
-              Contact Us
+            <a className="navUlArightButton" href="/community">
+              Join our Community
             </a>
           </li>
-          <li className="navUlLi">
-            <a className="navUlA" href="/pricing">
+          {/* <li className="navUlLi">
+            <a className="navUlAright" href="/pricing">
               Subscribe
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
