@@ -22,7 +22,7 @@ const contactForm = (
       <input type="number" placeholder="Phone Number" className="input" />
       <input type="text" placeholder="Service" className="input" />
       <input type="date" placeholder="Date" className="input" />
-
+      <p>By clicking "Book my Event", I hereby: Agree and Consent to Alpha - Drone's privacy policy.</p>
       <div className="buttonMainDiv">
         <a href="#">
           <button 

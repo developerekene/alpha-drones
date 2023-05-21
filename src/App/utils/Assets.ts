@@ -7,6 +7,12 @@ export const Assets = {
         mpCamera: require("../images/png/camera.png"),
         fiveG: require("../images/png/fiveG.png"),
         contact: require("../images/png/contact-removebg-preview.png"),
-        contactBackground: require("../images/png/contactbackground.png")
+        contactBackground: require("../images/png/contactbackground.png"),
+        droneSales: require("../images/png/dronesales.png"),
+        transport: require("../images/png/transport.png"),
+        videoCoverage: require("../images/png/captureIcon.png"),
+        patnerships: require("../images/png/landscape.png"),
+        eventCoverage: require("../images/png/events.png"),
+        security: require("../images/png/security.png"),
     }
 }

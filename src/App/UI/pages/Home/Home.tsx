@@ -100,10 +100,91 @@ const Home: React.FC<any> = ({}) => {
           </div>
         </div>
         <div>
-        <div className="middleContainerDiv">
-          <h2 className="middleHeading">Explore what we offer</h2>
-          {/* <h2 className="middleParagraph">DJI Mini 2 SE</h2> */}
-        </div>
+          <div className="middleContainerDivTwo">
+            <h2 className="middleHeadingTwo">Explore what we offer</h2>
+            <div className="services">
+              <div>
+                <img src={`${Assets.images.droneSales}`} />
+                <h3 className="headings">Music and Movie Coverage</h3>
+                <p className="paragraph">
+                  It is a new global wireless standard after 1G, 2G, 3G, and 4G
+                  networks
+                </p>
+                <a href="#">
+                  <button className="buttonMainOrder">
+                    {`Learn More >>>`}
+                  </button>
+                </a>
+              </div>
+              <div>
+                <img src={`${Assets.images.transport}`} />
+                <h3 className="headings">Goods Transportation</h3>
+                <p className="paragraph">
+                  It is a new global wireless standard after 1G, 2G, 3G, and 4G
+                  networks
+                </p>
+                <a href="#">
+                  <button className="buttonMainOrder">
+                    {`Learn More >>>`}
+                  </button>
+                </a>
+              </div>
+              <div>
+                <img src={`${Assets.images.videoCoverage}`} />
+                <h3 className="headings">Event Coverage</h3>
+                <p className="paragraph">
+                  It is a new global wireless standard after 1G, 2G, 3G, and 4G
+                  networks
+                </p>
+                <a href="#">
+                  <button className="buttonMainOrder">
+                    {`Learn More >>>`}
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="services">
+              <div>
+                <img src={`${Assets.images.patnerships}`} />
+                <h3 className="headings">Sales / Trainings</h3>
+                <p className="paragraph">
+                  It is a new global wireless standard after 1G, 2G, 3G, and 4G
+                  networks
+                </p>
+                <a href="#">
+                  <button className="buttonMainOrder">
+                    {`Learn More >>>`}
+                  </button>
+                </a>
+              </div>
+              <div>
+                <img src={`${Assets.images.eventCoverage}`} />
+                <h3 className="headings">Partnerships / Collaborations</h3>
+                <p className="paragraph">
+                  It is a new global wireless standard after 1G, 2G, 3G, and 4G
+                  networks
+                </p>
+                <a href="#">
+                  <button className="buttonMainOrder">
+                    {`Learn More >>>`}
+                  </button>
+                </a>
+              </div>
+              <div>
+                <img src={`${Assets.images.security}`} />
+                <h3 className="headings">Security</h3>
+                <p className="paragraph">
+                  It is a new global wireless standard after 1G, 2G, 3G, and 4G
+                  networks
+                </p>
+                <a href="#">
+                  <button className="buttonMainOrder">
+                    {`Learn More >>>`}
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
