@@ -6,6 +6,7 @@ export const Assets = {
         roboticArm: require("../images/png/robotIcon.png"),
         mpCamera: require("../images/png/camera.png"),
         fiveG: require("../images/png/fiveG.png"),
-        contact: require("../images/png/contact-removebg-preview.png")
+        contact: require("../images/png/contact-removebg-preview.png"),
+        contactBackground: require("../images/png/contactbackground.png")
     }
 }

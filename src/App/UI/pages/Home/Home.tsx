@@ -99,6 +99,12 @@ const Home: React.FC<any> = ({}) => {
             </a>
           </div>
         </div>
+        <div>
+        <div className="middleContainerDiv">
+          <h2 className="middleHeading">Explore what we offer</h2>
+          {/* <h2 className="middleParagraph">DJI Mini 2 SE</h2> */}
+        </div>
+        </div>
       </div>
     </div>
   );

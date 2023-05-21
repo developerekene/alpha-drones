@@ -1,6 +1,7 @@
 import { url } from "inspector";
 import React, { ReactNode } from "react";
 import "../MainContainer/MainContainer.css";
+import Footer from "../Footer/Footer";
 
 interface MainContainerInterface {
   navView: ReactNode;
@@ -8,13 +9,16 @@ interface MainContainerInterface {
   headerTitle?: string;
   subTitle?: string;
   buttonView?: ReactNode;
-  secondButtonView?: ReactNode
+  secondButtonView?: ReactNode;
+  contactForm?: ReactNode;
+  subFooter?: ReactNode;
+  isTrue?: Boolean
 }
 
 export const windowWidth: number = window.screen.width;
 export const windowHeight: number = window.screen.height;
 
-console.log(windowHeight);
+// console.log(windowHeight);
 
 const MainContainer: React.FC<MainContainerInterface> = ({
   backgroundImage,
@@ -22,7 +26,10 @@ const MainContainer: React.FC<MainContainerInterface> = ({
   headerTitle,
   subTitle,
   buttonView,
-  secondButtonView
+  secondButtonView,
+  contactForm,
+  subFooter,
+  isTrue
 }) => {
   return (
     <div
@@ -41,6 +48,12 @@ const MainContainer: React.FC<MainContainerInterface> = ({
       <div className="buttonStyle">
         {buttonView}
         {secondButtonView}
+      </div>
+      <div>
+        {contactForm}
+      </div>
+      <div>
+        {subFooter}
       </div>
     </div>
   );
