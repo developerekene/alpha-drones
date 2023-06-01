@@ -8,10 +8,10 @@ interface MainContainerInterface {
   headerTitle?: string;
   subTitle?: string;
   buttonView?: ReactNode;
-  secondButtonView?: ReactNode
+  secondButtonView?: ReactNode;
   contactForm?: ReactNode;
   subFooter?: ReactNode;
-  isTrue?: Boolean
+  isTrue?: Boolean;
 }
 
 export const windowWidth: number = window.screen.width;
@@ -28,7 +28,7 @@ const MainContainer: React.FC<MainContainerInterface> = ({
   secondButtonView,
   contactForm,
   subFooter,
-  isTrue
+  isTrue,
 }) => {
   return (
     <div
@@ -48,12 +48,8 @@ const MainContainer: React.FC<MainContainerInterface> = ({
         {buttonView}
         {secondButtonView}
       </div>
-      <div>
-        {contactForm}
-      </div>
-      <div>
-        {subFooter}
-      </div>
+      <div>{contactForm}</div>
+      <div>{subFooter}</div>
     </div>
   );
 };

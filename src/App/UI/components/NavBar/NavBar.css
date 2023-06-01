@@ -1,80 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.logoDiv{
-    display: flex;
-    gap: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+.logoDiv {
+  display: flex;
+  gap: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
 }
 
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.navUl{
-    display: flex;
-    gap: 20px;
+.navUl {
+  display: flex;
+  gap: 20px;
 }
 
-.navUlLi{
-    list-style: none;
+.navUlLi {
+  list-style: none;
 }
 
-.navUlA{
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
+.navUlA {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.navUlA:hover{
-    color: #B87E0B;
+.navUlA:hover {
+  color: #b87e0b;
 }
 
-.lastSection{
-    display: flex;
-    gap: 20px;
+.lastSection {
+  display: flex;
+  gap: 20px;
 }
 
-.navUlAright{
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
+.navUlAright {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.navUlArightButton{
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #B87E0B;
-    padding: 10px;
-    border-radius: 5px;
+.navUlArightButton {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #b87e0b;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.navUlArightButton:hover{
-    color: #B87E0B;
-    background-color: #ffffff;
+.navUlArightButton:hover {
+  color: #b87e0b;
+  background-color: #ffffff;
 }
 
-.logoP{
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 200;
+.logoP {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
 }
 
-.logoPi{
-    color: #B87E0B;
-    font-size: 20px;
-    font-weight: 200;
+.logoPi {
+  color: #b87e0b;
+  font-size: 20px;
+  font-weight: 200;
 }
-
