@@ -13,6 +13,6 @@ export const Assets = {
         videoCoverage: require("../images/png/captureIcon.png"),
         patnerships: require("../images/png/landscape.png"),
         eventCoverage: require("../images/png/events.png"),
-        security: require("../images/png/security.png"),
+        security: require("../images/png/dronesales.png"),
     }
 }
