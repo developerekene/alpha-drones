@@ -6,13 +6,12 @@ interface NavBarProps {}
 const NavBar: React.FC<NavBarProps> = () => {
   return (
     <div className="navBar">
-      <div >
+      <div>
         <a className="logoDiv" href="/">
           <p className="logoP">Alpha</p>
           <p className="logoP">-</p>
           <p className="logoPi">Drones</p>
         </a>
-        
       </div>
       <div>
         <ul className="navUl">
@@ -43,11 +42,16 @@ const NavBar: React.FC<NavBarProps> = () => {
           </li>
         </ul>
       </div>
-      <div >
+      <div>
         <ul className="lastSection">
           <li className="navUlLi">
             <a className="navUlArightButton" href="/community">
               Join our Community
+            </a>
+          </li>
+          <li className="navUlLi">
+            <a className="navUlArightButton" href="/signin">
+              Sign In
             </a>
           </li>
         </ul>

@@ -35,26 +35,11 @@
   gap: 20px;
 }
 
-.middleContainerDivTwo {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px;
-    align-items: center;
-    gap: 20px;
-  }
-
 .middleHeading {
   text-align: center;
   font-size: 50px;
   font-family: "Times New Roman", Times, serif;
 }
-
-.middleHeadingTwo {
-    text-align: left;
-    font-size: 50px;
-    font-family: "Times New Roman", Times, serif;
-    margin-bottom: 40px;
-  }
 
 .middleParagraph {
   text-align: center;
@@ -98,13 +83,11 @@
 .headings {
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 2px;
-  padding-bottom: 10px;
 }
 
 .paragraph {
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 2px;
-  margin-bottom: 20px;
 }
 
 .contactDiv {
@@ -142,11 +125,4 @@
   background-color: #ffffff;
   border: 1px solid #ffffff;
   cursor: pointer;
-}
-
-.services{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 40px;
 }
