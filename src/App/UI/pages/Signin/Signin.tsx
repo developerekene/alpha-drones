@@ -1,7 +1,11 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import { Assets } from "../../../utils/Assets";
+// import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
+import { Assets } from "../../../utils/Assets";
+import NavBar from "../../components/NavBar/NavBar";
+import MainContainer from "../../components/MainContainer/MainContainer";
+import "../Signin/Signin.css";
+import "../Community/Community.css";
 
 const SignInPage: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -14,70 +18,92 @@ const SignInPage: React.FC = () => {
   };
 
   return (
-    <section className="container">
-      <div className="row">
-        <div className="col-lg-6">
-          <img src={`${Assets.images.groupa}`} width={"80%"} height={500} />
-        </div>
-        <div className="col-lg-6">
-          <div className="text-center">
-            <h2>WELCOME BACK</h2>
-            <p>Please fill out the form to book for an event with us.</p>
-          </div>
-          <div>
-            <form onSubmit={handleSubmit}>
-              <div>
-                <label htmlFor="email" className="form-label">
-                  Email:
-                </label>
-                <input
-                  className="form-control"
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="password" className="form-label">
-                  Password:
-                </label>
-                <input
-                  className="form-control"
-                  type="password"
-                  id="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </div>
-              <div className="d-flex justify-content-between mt-4">
-                <div>
-                  <input type="checkbox" />
-                  <span>Remember me</span>
-                </div>
-                <p>Forgot Password</p>
-              </div>
-              <div className="d-grid gap-2">
-                <button className="btn" type="button">
-                  Sign In
-                </button>
-                <button className="btn border border-warning" type="button">
-                  <img
-                    src={`${Assets.images.drone}`}
-                    width={"4%"}
-                    height={20}
-                  />
-                  Sign Up with Google
-                </button>
-              </div>
-              <div className="mt-3">
-                <p>
-                  Don't have an account? <Link to="/community">Sign Up</Link>
+    <section>
+      <div>
+        <div>
+          <MainContainer
+            navView={<NavBar />}
+            backgroundImage={`${Assets.images.contactBackground}`}
+          />
+          <div className="general-form">
+            <div className="image">
+              <img
+                src={`${Assets.images.groupa}`}
+                width={"120%"}
+                height={450}
+              />
+            </div>
+
+            <div className="form">
+              <div className="wel">
+                <h2>WELCOME BACK</h2>
+                <p className="p">
+                  Please fill out the form to book for an event with us.
                 </p>
               </div>
-            </form>
+              <div>
+                <form onSubmit={handleSubmit}>
+                  <div>
+                    <label htmlFor="email" className="form-label">
+                      Email:
+                    </label>
+                    <br />
+                    <input
+                      className="form-control"
+                      type="email"
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="password" className="form-label">
+                      Password:
+                    </label>
+                    <br />
+                    <input
+                      className="form-control"
+                      type="password"
+                      id="password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div>
+                    <div className="check">
+                      <input type="checkbox" />
+                      <span className="rem">Remember me</span>{" "}
+                      <p>Forgot Password</p>
+                    </div>
+                  </div>
+                  <div className="">
+                    <button className="btn" type="button">
+                      Sign In
+                    </button>
+                    <br />
+                    <button className="button" type="button">
+                      <img
+                        src={`${Assets.images.drone}`}
+                        width={"4%"}
+                        height={20}
+                      />
+                      Sign Up with Google
+                    </button>
+                  </div>
+                  <div className="">
+                    <p>
+                      Don't have an account?{" "}
+                      <Link to="/community" className="sig">
+                        {" "}
+                        Sign Up
+                      </Link>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -85,4 +111,89 @@ const SignInPage: React.FC = () => {
   );
 };
 
+const SignUp: React.FC = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Email:", email);
+    console.log("Password:", password);
+  };
+
+  return (
+    <div>
+      <div>
+        <MainContainer
+          navView={<NavBar />}
+          backgroundImage={`${Assets.images.contactHome}`}
+        />
+        <div className="general">
+          <h2>Create an Account</h2>
+        </div>
+        <div>
+          <form onSubmit={handleSubmit}>
+            <div>
+              <label htmlFor="name" className="form-label">
+                Name:
+              </label>
+              <input
+                className="form-control"
+                type="text"
+                id="name"
+                value={email}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="form-label">
+                Email:
+              </label>
+              <input
+                className="form-control"
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="password" className="form-label">
+                Password:
+              </label>
+              <input
+                className="form-control"
+                type="password"
+                id="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <button className="btn" type="button">
+                Sign In
+              </button>
+              <button className="btn" type="button">
+                <img src={`${Assets.images.drone}`} width={"4%"} height={20} />
+                Sign Up with Google
+              </button>
+            </div>
+            <div>
+              <p>
+                Already have an account? <Link to="/signin">Sign In</Link>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default SignInPage;
+
+// export default SignUp;

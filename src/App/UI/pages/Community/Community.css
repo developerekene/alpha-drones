@@ -1,41 +1,44 @@
-.auth-form-container, .login-form, .group {
-  display: flex;
-  flex-direction: column;
+.general {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  width: 50PXs;
+  justify-content: center;
 }
-
-@media screen and (min-width: 600px) {
-  .auth-form-container {
-    padding: 5rem;
-    border: 1px solid rgb (184, 126, 11);
-    border-radius: 10px;
-    margin: 0.5rem;
-  }
+.form-controll {
+  background-color: #ffff;
+  border-color: #b87e0b;
+  padding: 15px;
+  width: 95%;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
-
-label {
-  text-align: left;
-  padding: 0.25rem 0;
+.btnn {
+  background-color: #b87e0b;
+  border-color: #b87e0b;
+  padding: 15px;
+  width: 98.5%;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
-
-input {
-  margin: 0.5rem 0;
-  padding: 1rem;
-  border: none;
-  border-radius: 10px;
+.buttonn {
+  background-color: #ffff;
+  border-color: #b87e0b;
+  padding: 15px;
+  width: 98.5%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 12px;
 }
-
-button {
-  border: none;
-  background-color: rgb(184, 126, 11);
-  padding: 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  color: #7439db;
+.sign {
+  padding-left: 350px;
+  padding-right: 150px;
+  padding-top: 8px;
+  margin-bottom: 10px;
 }
-
-.link-btn {
-  background: none;
-  color: rgb(184, 126, 11);
-  text-decoration: underline;
+.an {
+  padding-left: 350px;
+  padding-right: 150px;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
-

@@ -1,13 +1,69 @@
-.team{
-    background: rgba(166, 165, 165, 0.44);
+.vision {
+  background-color: #ffff;
+  padding-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
 }
-.contact{
-    color:rgba(184, 126, 11, 1) !important;
+.vis {
+  padding-top: 20px;
+  padding-right: 5px;
+  margin-bottom: 2px;
 }
-.contact{
-    background: rgba(240, 235, 235, 1);
-    color: black;
+.img {
+  /* padding-top: 20px; */
+  padding-left: 40px;
+  margin-bottom: 2px;
 }
-.about_submit{
-    background: rgba(184, 126, 11, 1) !important;
+.ab {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 15px;
+  color: #b87e0b;
+}
+
+.row {
+  display: flex;
+  background-color: hsl(0, 1%, 65%);
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.col {
+  flex: 33.33%;
+  padding: 5px;
+}
+.team {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+.p {
+  text-align: center;
+}
+.mission {
+  background-color: #ffff;
+  padding-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.contact {
+  background-color: #f0ebeb;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 50px;
+}
+.us {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  color: #b87e0b;
+}
+.bt {
+  background-color: #b87e0b;
+  border-color: #b87e0b;
+  padding: 15px;
+  width: 25%;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
